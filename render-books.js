@@ -9,6 +9,7 @@
     authorEl.textContent = book.author;
     dateEl.textContent = book.publishDate;
     bookContainer.classList.add('books');
+    titleEl.classList.add('book-title');
 
     bookContainer.append(titleEl, authorEl, dateEl);
     return bookContainer;

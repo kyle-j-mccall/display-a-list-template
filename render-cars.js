@@ -8,6 +8,8 @@ export function renderCars(car) {
     const windowsEl = document.createElement('p');
     const navigationEl = document.createElement('p');
     carContainer.classList.add('cars');
+    makeEl.classList.add('car-make');
+    featuresEl.classList.add('car-features');
     makeEl.textContent = car.make;
     modelEl.textContent = car.model;
     yearEl.textContent = car.year;
