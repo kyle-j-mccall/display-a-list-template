@@ -1,1 +1,71 @@
-/* add home page styles here */
+section {
+    display: flex;
+    
+}
+
+.movies {
+    border: solid 1px red;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    
+}
+
+.books .h3 {
+    text-decoration: underline;
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+}
+
+.animal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(118, 161, 241);
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    background-color: rgb(62, 233, 233);
+}
+
+.animal-activities {
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(20, 53, 158);
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}

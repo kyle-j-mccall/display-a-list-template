@@ -1,0 +1,1 @@
+export const movies = ['Harry Potter', 'Interstellar', 'Pulp Fiction', 'Batman', 'Dumb and Dumber'];
