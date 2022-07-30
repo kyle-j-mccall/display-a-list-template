@@ -1,1 +1,101 @@
-/* add home page styles here */
+section {
+    display: flex;
+    
+}
+
+header {
+    background-color: purple;
+}
+
+body {
+    background-color: rgb(161, 224, 185);
+}
+
+.movies {
+    border: solid 3px rgb(233, 93, 163);
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    background-color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(143, 167, 212);
+}
+
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    background-color: rgb(20, 19, 19);
+    color: rgb(185, 123, 123);
+    font-family: monospace;
+    font-size: 20px;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px
+}
+
+.book-title {
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    background-color: royalblue;
+}
+
+.car-make {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.car-features {
+    border: 2px solid pink;
+    background-color: rgb(42, 39, 48);
+    color: white;
+}
+
+.animal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(118, 161, 241);
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(72, 66, 78, 0.42);
+    padding: 10px;
+    background-color: rgb(62, 233, 233);
+}
+
+.animal-activities {
+    display: flex;
+    font-family: cursive;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(20, 53, 158);
+    border-radius: 6px;
+    box-shadow: 12px 9px 31px 0px rgba(0,0,0,0.42);
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
